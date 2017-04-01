@@ -1,0 +1,168 @@
+/*
+*/.heading-font{font-family:Catamaran,Helvetica,Arial,sans-serif;font-weight:200;letter-spacing:1px}.body-font{font-family:Muli,Helvetica,Arial,sans-serif}.alt-font{font-family:Lato,Helvetica,Arial,sans-serif;text-transform:uppercase;letter-spacing:2px}body,html{height:100%;width:100%}body{font-family:Muli,Helvetica,Arial,sans-serif;webkit-tap-highlight-color:#222}.navbar-default,.navbar-default .navbar-header .navbar-brand,h1,h2,h3,h4,h5,h6{font-family:Catamaran,Helvetica,Arial,sans-serif;font-weight:200;letter-spacing:2px}a{-webkit-transition:all .35s;-moz-transition:all .35s;transition:all .35s;color:#fdcc52}a:focus,a:hover{color:#fcbd20}hr{max-width:100px;margin:25px auto 0;border-width:1px;border-color:rgba(34,34,34,.1)}hr.light{border-color:#fff}p{font-size:18px;line-height:1.5;margin-bottom:20px}.navbar-default{background-color:#ff751a;border-color:rgba(34,34,34,.05);-webkit-transition:all .35s;-moz-transition:all .35s;transition:all .35s}.navbar-default .navbar-header .navbar-brand{color:#fdcc52}.btn,.navbar-default .nav>li>a{font-family:Lato,Helvetica,Arial,sans-serif;text-transform:uppercase;letter-spacing:2px}.navbar-default .navbar-header .navbar-brand:focus,.navbar-default .navbar-header .navbar-brand:hover{color:#fcbd20}.navbar-default .navbar-header .navbar-toggle{font-size:20px;color:#222;padding:8px 10px}.navbar-default .nav>li>a{font-size:15px}.navbar-default .nav>li>a,.navbar-default .nav>li>a:focus{color:#222}.navbar-default .nav>li>a:focus:hover,.navbar-default .nav>li>a:hover{color:#fdcc52}.navbar-default .nav>li.active>a,.navbar-default .nav>li.active>a:focus{color:#fdcc52!important;background-color:yellow}.navbar-default .nav>li.active>a:focus:hover,.navbar-default .nav>li.active>a:hover{background-color:yellow}@media (min-width:768px){.navbar-default{background-color:teal;border-color:transparent}.navbar-default .navbar-header .navbar-brand{color:rgba(255,255,255,.7)}.navbar-default .navbar-header .navbar-brand:focus,.navbar-default .navbar-header .navbar-brand:hover{color:#fff}.navbar-default .nav>li>a,.navbar-default .nav>li>a:focus{color:rgba(255,255,255,.7)}.navbar-default .nav>li>a:focus:hover,.navbar-default .nav>li>a:hover{color:yellow}/*yha par navbar vaale changes honge*/
+ .navbar-default.affix{background-color:teal;border-color:rgba(34,34,34,.1)}.navbar-default.affix .navbar-header .navbar-brand{color:#222}.navbar-default.affix .navbar-header .navbar-brand:focus,.navbar-default.affix .navbar-header .navbar-brand:hover{color:#fdcc52}.navbar-default.affix .nav>li>a,.navbar-default.affix .nav>li>a:focus{color:#222}.navbar-default.affix .nav>li>a:focus:hover,.navbar-default.affix .nav>li>a:hover{color:#fdcc52}}
+ .panel-title:hover{box-shadow: 4px}
+ 
+ footer {
+  background-color: #222222;
+  padding: 25px 0;
+  color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+footer p {
+  font-size: 12px;
+  margin: 0;
+}
+footer ul {
+  margin-bottom: 0;
+}
+footer ul li a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
+}
+footer ul li a:hover,
+footer ul li a:focus,
+footer ul li a:active,
+footer ul li a.active {
+  text-decoration: none;
+}
+ .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+car:hover, a:hover {
+    opacity: 0.7;
+}
+        body {
+    padding-top: 90px;
+}
+.panel-login {
+	border-color: #ccc;
+	-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+}
+.panel-login>.panel-heading {
+	color: #00415d;
+	background-color: #fff;
+	border-color: #fff;
+	text-align:center;
+}
+.panel-login>.panel-heading a{
+	text-decoration: none;
+	color: #666;
+	font-weight: bold;
+	font-size: 15px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login>.panel-heading a.active{
+	color: #029f5b;
+	font-size: 18px;
+}
+.panel-login>.panel-heading hr{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	clear: both;
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+	background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+.panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"] {
+	height: 45px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login input:hover,
+.panel-login input:focus {
+	outline:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-color: #ccc;
+}
+.btn-login {
+	background-color: #59B2E0;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #59B2E6;
+}
+.btn-login:hover,
+.btn-login:focus {
+	color: #fff;
+	background-color: #53A3CD;
+	border-color: #53A3CD;
+}
+.forgot-password {
+	text-decoration: underline;
+	color: #888;
+}
+.forgot-password:hover,
+.forgot-password:focus {
+	text-decoration: underline;
+	color: #666;
+}
+
+.btn-register {
+	background-color: #1CB94E;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #1CB94A;
+}
+.btn-register:hover,
+.btn-register:focus {
+	color: #fff;
+	background-color: #1CA347;
+	border-color: #1CA347;
+}
